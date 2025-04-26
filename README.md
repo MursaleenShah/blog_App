@@ -50,12 +50,14 @@ nodemon index.js
 
 ## Important Backend API Routes
 
-Method	 Route	          Description	               Access
-GET	    /api/posts/	       Get all posts	           Public
-GET	    /api/posts/:id	   Get a single post	       Public
-POST	/api/posts/	       Create a post	           Admin
-PUT	    /api/posts/:id	   Update a post	           Admin
-DELETE	/api/posts/:id	   Delete a post	           Admin
+| Method | Route            | Description  | Access |
+|--------|------------------|--------------|--------|
+| GET    | /api/posts/      | Get all posts| Public |
+| GET    | /api/posts/:id   | Get a single post | Public |
+| POST   | /api/posts/      | Create a post | Admin |
+| PUT    | /api/posts/:id   | Update a post | Admin |
+| DELETE | /api/posts/:id   | Delete a post | Admin |
+
 
 ## Frontend Setup (React + TailwindCSS)
 
